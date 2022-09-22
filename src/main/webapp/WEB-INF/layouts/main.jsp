@@ -5,6 +5,8 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,10 +29,10 @@
             <div class="collapse navbar-collapse" id="myNavbar" style="margin-top: -10px;" >
                 <ul class="nav navbar-nav" style="display: inline;">
                     <li><a style="padding: 0px; padding-right: 5px;" class="navbar-collapse">
-                           <img src="${root}/image/logo.jpg" height="50"/>
+                            <img src="${root}/image/logo.jpg" height="50"/>
                         </a></li>
-                    <li><a href=""><i class="bi bi-house"></i> Home page</a></li>
-                    <li><a href=""/></a></li>
+                    <li><a href=""> Home page</a></li>
+                    <li><a href=<c:url value="/booking/booking.do"/>>Booking</a></li>
                 </ul>
             </div>
         </div>

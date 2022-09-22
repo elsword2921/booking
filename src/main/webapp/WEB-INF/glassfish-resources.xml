@@ -12,4 +12,3 @@
     </jdbc-connection-pool>
     <jdbc-resource enabled="true" jndi-name="java:app/booking" object-type="user" pool-name="microsoft_sql_booking_saPool"/>
 </resources>
-/////////
