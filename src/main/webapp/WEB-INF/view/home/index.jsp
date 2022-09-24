@@ -11,9 +11,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="${root}/css/home.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="${root}/css/home.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="position: absolute;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -91,6 +95,60 @@
                 </a>
             </div>
         </div>
+        <div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-8 text-left">
+                <h2  style="text-align: center">
+                    <span>Ngôi nhà Việt Nam của Quý khách</span> 
+                </h2>
+                <p class="p1">
+                    <span>
+                        Trải qua bao nhiêu năm tháng, Rex Hotel Saigon đã chứng kiến những thay đổi trong lịch sử cũng như sự phát triển của Sài Gòn. 
+                        Sau bao nhiêu nỗ lực và cố gắng, khách sạn Rex trở thành một khách sạn đạt tiêu chuẩn 5 sao với chất lượng các 
+                        dịch vụ và sản phẩm luôn được quý khách hàng đánh giá cao.
+                    </span>
+                </p>
+                <br/>
+                <p class="p2">
+                    <span>
+                        Tọa lạc ngay giữa trái tim Thành phố, trên đại lộ Nguyễn Huệ – phố đi bộ lớn nhất hiện nay. 
+                        Với hơn 90 năm hình thành và phát triển, Rex Hotel Saigon ngày nay là một khách sạn sang trọng với 286 phòng ngủ, 
+                        5 nhà hàng và bar, hệ thống 8 phòng họp được trang bị hiện đại, khu mua sắm với những thương hiệu nổi tiếng Thế giới, 
+                        hai hồ bơi, sân tennis và CLB chăm sóc sức khỏe hàng đầu.
+                    </span>
+                </p>
+                <p class="p3">
+                    <span>
+                        Rex Hotel Saigon tự hào là khách sạn 5 sao do người Việt quản lý, 
+                        cung cấp sản phẩm – dịch vụ mang bản sắc Việt đến du khách trong và ngoài nước với lòng tận tâm, hiếu khách Việt Nam.
+                    </span>
+                </p>
+            </div>
+            <div class="col-sm-2"> </div>
+        </div> 
+        <div>
+            <div class="col-sm-3">
+                <img class="list-img" src="${root}/image/hoinghi.jpg"/>
+            </div>
+            <div class="col-sm-3">
+                <img class="list-img" src="${root}/image/amthuc.jpg"/>
+            </div>
+            <div class="col-sm-3">
+                <img class="list-img" src="${root}/image/phongngu.jpg"/>
+            </div>
+            <div class="col-sm-3">
+                <img class="list-img" src="${root}/image/khoedep.jpg"/>
+            </div>
+        </div>
+        <div>
+            <div class="col-sm-6">
+                <img class="list-img2" src="${root}/image/nhahanghoangsa.jpg" alt=""/>
+            </div>
+            <div class="col-sm-6">
+                <img class="list-img2" src="${root}/image/rexhotel.jpg" alt=""/>
+            </div>
+        </div>
+
     </body>
 </html>
 

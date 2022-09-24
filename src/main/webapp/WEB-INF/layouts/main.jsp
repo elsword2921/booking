@@ -31,7 +31,7 @@
                     <li><a style="padding: 0px; padding-right: 5px;" class="navbar-collapse">
                             <img src="${root}/image/logo.jpg" height="50"/>
                         </a></li>
-                    <li><a href=""> Home page</a></li>
+                    <li><a href=<c:url value="/home/index.do"/>> Home page</a></li>
                     <li><a href=<c:url value="/booking/booking.do"/>>Booking</a></li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
             <jsp:include page="/WEB-INF/view/${controller}/${action}.jsp"/>
         </div>
     </body>
-    <footer>
-        From Booking Master 
-    </footer>
+    <!--    <footer>
+            From Booking Master 
+        </footer>-->
 </html>

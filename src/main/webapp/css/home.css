@@ -11,5 +11,65 @@ and open the template in the editor.
 .img{
     height: 828.545px;
     width: 1519px;
-    
 }
+.h2{
+    text-align: center;
+}
+p1p2p3{
+    text-align: center;
+}
+.background{
+    background-image: url("https://www.rexhotelsaigon.com/wp-content/themes/rex-hotel-vietnam/images/preview_offers_bg.png");
+}
+
+.list-img{
+    width: 327px;
+    height: 228.9px; 
+    left: 0px;
+    top: -0.45px;
+
+}
+.row {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*.padding-0{
+    padding-left: 0;
+    padding-right: 0;
+}*/
+.list-img2{
+    width: 706.333px;
+    height: 400px;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
