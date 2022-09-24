@@ -25,9 +25,7 @@ p1p2p3{
 .list-img{
     width: 327px;
     height: 228.9px; 
-    left: 0px;
-    top: -0.45px;
-
+    padding: 0;
 }
 .row {
     padding-left: 0;
@@ -38,11 +36,17 @@ p1p2p3{
     padding-right: 0;
 }*/
 .list-img2{
-    width: 706.333px;
+    width: 654px;
     height: 400px;
 }
-li{
-    list-style-type: none;
+body{
+    height: 100%
+}
+
+.parent{
+    margin-left: 85px;
+    align-items: center;
+    justify-content: center;
 }
 
 
