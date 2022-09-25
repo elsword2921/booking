@@ -21,7 +21,7 @@
         <div class="container-fluid" style="padding: 0;">
             <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <!-- Indicators -->
-                <ol class="carousel-indicators" style="position: absolute; margin-left: 250px;">
+                <ol class="carousel-indicators" style="margin-left: 300px; ;align-items: center; justify-content: center;">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -195,6 +195,29 @@
                     </div>
                 </div>
             </div>  
+        </div>
+        <div class="col-sm-12">
+            <div class="item">
+                <img src="${root}/image/background.png" style="height: 600px; width: 100%; padding: 0;"/>
+                <div class="carousel-caption">
+                    <h1> Our Special Offers </h1>
+                    <div class="col-sm-4">
+                        <div class="tab" style="height: 500px;width: 320px; background-color: white;">
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="tab" style="height: 500px;width: 320px; background-color: white;">
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="tab" style="height: 500px;width: 320px; background-color: white;">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

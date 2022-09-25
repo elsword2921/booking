@@ -18,10 +18,6 @@ and open the template in the editor.
 p1p2p3{
     text-align: center;
 }
-.background{
-    background-image: url("https://www.rexhotelsaigon.com/wp-content/themes/rex-hotel-vietnam/images/preview_offers_bg.png");
-}
-
 .list-img{
     width: 327px;
     height: 228.9px; 
@@ -37,7 +33,7 @@ p1p2p3{
 }*/
 .list-img2{
     width: 654px;
-    height: 400px;
+    height: 300px;
 }
 body{
     height: 100%
@@ -47,6 +43,10 @@ body{
     margin-left: 85px;
     align-items: center;
     justify-content: center;
+}
+
+.tab{
+    height: 300px;width: 340px; background-color: white;
 }
 
 
