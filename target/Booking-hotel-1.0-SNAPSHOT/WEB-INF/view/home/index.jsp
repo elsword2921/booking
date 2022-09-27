@@ -129,91 +129,94 @@
             </div>
             <div class="col-sm-2"></div>
         </div> 
-        <div class="parent">
-            <div class="col-sm-3" style="width: 327px;">
-                <div class="item" style="width: 327px;">
-                    <a href="">
-                        <img class="list-img" src="${root}/image/hoinghi.jpg"/>
-                        <div class="carousel-caption">
-                            <p style="text-align: center">HỘI NGHỊ-TIỆC CƯỚI</p>
-                        </div>
-                    </a>
+        <div class="container-fluid">
+            <div class="parent">
+                <div class="col-sm-3" style="width: 327px;">
+                    <div class="item" style="width: 327px;">
+                        <a href="">
+                            <img class="list-img" src="${root}/image/hoinghi.jpg"/>
+                            <div class="carousel-caption">
+                                <p style="text-align: center">HỘI NGHỊ-TIỆC CƯỚI</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-3" style="width: 327px;">
-                <div class="item" style="width: 327px;">
-                    <a href="">
-                        <img class="list-img" src="${root}/image/amthuc.jpg"/>
-                        <div class="carousel-caption">
-                            <p style="text-align: center">ẨM THỰC</p>
-                        </div>
-                    </a>
+                <div class="col-sm-3" style="width: 327px;">
+                    <div class="item" style="width: 327px;">
+                        <a href="">
+                            <img class="list-img" src="${root}/image/amthuc.jpg"/>
+                            <div class="carousel-caption">
+                                <p style="text-align: center">ẨM THỰC</p>
+                            </div>
+                        </a>
 
-                </div>
-            </div>
-            <div class="col-sm-3" style="width: 327px;">
-                <div class="item" style="width: 327px;">
-                    <a href="">
-                        <img class="list-img" src="${root}/image/phongngu.jpg"/>
-                        <div class="carousel-caption">
-                            <p style="text-align: center">PHÒNG NGỦ</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3" style="width: 327px;">
-                <div class="item" style="width: 327px;">
-                    <a href="">
-                        <img class="list-img" src="${root}/image/khoedep.jpg"/>
-                        <div class="carousel-caption">
-                            <p style="text-align: center">KHỎE ĐẸP</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6" style="width: 654px;">
-                <div class="item"style="width: 654px;">
-                    <a href="">
-                        <img class="list-img2" src="${root}/image/nhahanghoangsa.jpg" alt=""/>
-                    </a>
-                    <div class="carousel-caption">
-                        <p>
-                            NHÀ HÀNG HOÀNG SA
-                        </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-6" style="width: 706.33px;">
-                <div class="item" style="width: 706.33px;">
-                    <a href="">
-                        <img class="list-img2" src="${root}/image/rexhotel.jpg" alt=""/>
-                    </a>
-                    <div class="carousel-caption">
-                        <p>
-                            REX HOTEL
-                        </p>
+                <div class="col-sm-3" style="width: 327px;">
+                    <div class="item" style="width: 327px;">
+                        <a href="">
+                            <img class="list-img" src="${root}/image/phongngu.jpg"/>
+                            <div class="carousel-caption">
+                                <p style="text-align: center">PHÒNG NGỦ</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </div>  
+                <div class="col-sm-3" style="width: 327px;">
+                    <div class="item" style="width: 327px;">
+                        <a href="">
+                            <img class="list-img" src="${root}/image/khoedep.jpg"/>
+                            <div class="carousel-caption">
+                                <p style="text-align: center">KHỎE ĐẸP</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6" style="width: 654px;">
+                    <div class="item"style="width: 654px;">
+                        <a href="">
+                            <img class="list-img2" src="${root}/image/nhahanghoangsa.jpg" alt=""/>
+                        </a>
+                        <div class="carousel-caption">
+                            <p>
+                                NHÀ HÀNG HOÀNG SA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6" style="width: 706.33px;">
+                    <div class="item" style="width: 706.33px;">
+                        <a href="">
+                            <img class="list-img2" src="${root}/image/rexhotel.jpg" alt=""/>
+                        </a>
+                        <div class="carousel-caption">
+                            <p>
+                                REX HOTEL
+                            </p>
+                        </div>
+                    </div>
+                </div>  
+            </div>    
         </div>
+
         <div class="col-sm-12">
             <div class="item">
                 <img src="${root}/image/background.png" style="height: 600px; width: 100%; padding: 0;"/>
-                <div class="carousel-caption">
-                    <h1> Our Special Offers </h1>
+                <div class="carousel-caption" style="margin-bottom: 50px;">
+                    <h1 style="font-weight: bold; font-size: 40px;margin-bottom: 35px; color: black; font-weight: 400;">Our Special Offers </h1>
                     <div class="col-sm-4">
-                        <div class="tab" style="height: 500px;width: 320px; background-color: white;">
-                            
+                        <div class="tab" style="height: 400px;width: 320px; background-color: white;">
+                            <a href="" style="text-decoration: none; color: black;"><h2 style="font-weight: 300;padding-top: 40px;">NOW OR NEVER !!!</h2></a>      
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="tab" style="height: 500px;width: 320px; background-color: white;">
-                            
+                        <div class="tab" style="height: 400px;width: 320px; background-color: white;">
+                            <a href="" style="text-decoration: none;color: black;"><h2 style="font-weight: 300;padding-top: 40px;">NOW OR NEVER !!!</h2></a>      
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="tab" style="height: 500px;width: 320px; background-color: white;">
-                            
+                        <div class="tab" style="height: 400px;width: 320px; background-color: white;">
+                            <a href="" style="text-decoration: none;color: black;"><h2 style="font-weight: 300;padding-top: 40px; ">NOW OR NEVER !!!</h2></a>      
                         </div>
                     </div>
                 </div>
